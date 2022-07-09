@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet" />
+        <link th:href="@{/css/estilos.css}" rel="stylesheet" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand navbar-light ">
+            <div class="container" style="background-color: white; height: 60px">
+                <div class="navbar-nav d-flex" style="background-color:gray; width: 17%; height: 60px" >
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Escudo_de_Chaclacayo.png/1200px-Escudo_de_Chaclacayo.png"style="width: 50px"/>
+                    
+                </div>   
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit" style="color: white">Search</button>
+                    </form>                                        
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row gap-2" style="display: grid; grid-template-columns: 65% 35%; margin: 15px">
+                <div class="col align-self-start" style="background-color: white; height: 800px">
+                    <input type="text" class="mt-2"/>
+                </div>
+                <div class="col align-self-center" style="background-color: white; height: 800px">
+                    One of three columns
+                </div>              
+            </div>
+        </div>
+    </body>
+</html>
